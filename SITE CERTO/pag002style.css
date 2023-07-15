@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.kirito{
+    width: 80%;
+    border-radius: 30px;
+    place-items: center;
+    margin-left: 80px;
+}
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: burlywood;
+    margin-top: 50px;
+    
+}
+.texto{
+    display: grid;
+    font-size: larger;
+    text-align: justify;
+    letter-spacing: 0.3px
+}

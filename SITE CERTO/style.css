@@ -1,0 +1,120 @@
+:root{
+    --branco_principal:#ffffff;
+    --preto_principal:#000000;
+    --Cinza_sengundario:#c0c0c0;
+    --cor_de_fundo:#bb6b00;
+    --botao_Verde:#9be564;
+    --botao_marrom:#823200;
+    --botao_rosa:#F529D6;
+}
+body{
+    background-color: var(--cor_de_fundo);
+    color: var(--branco_principal);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 1em;
+    min-height: 100%;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    font-size: 20px;
+}
+.container__botao{
+    background-color: var(--botao_Verde); 
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--preto_principal);
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco_principal);
+    color: var(--branco_principal);
+    letter-spacing: 1px;
+}
+.titulo{
+    text-align: center;
+    color: var(--branco_principal);
+    margin: 1em 0 1em 0;
+    letter-spacing: 1.5px-;
+}
+.container__botao-1{
+    background-color: var(--botao_marrom);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco_principal);
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.container__caixa{
+    margin: 0 8em;
+}
+.container__secundario{
+    border-radius: 10%;
+    width: 500px;
+    height: 500px;
+}
+.secundario{
+    margin: 1em;
+}
+.secundaio__botao{
+    display: inline-block;
+    margin: 1em 5em;
+    background-color: var(--botao_rosa);
+}
+.secundario__imagem{
+    width: 102%;
+    border-radius: 10%;
+}
+.container__descricao{
+    margin: center;
+    text-align: justify;
+    padding: 1em;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.temporada__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.temporada{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin: 220px 0px 60px 0px;
+}
+.temporada-3{
+    margin: 0em 0em 0.5em 1em;
+    border-radius: 10%;
+}
+.temporada-4{
+    margin: 0.5em 1em 0.5em 3em;
+    border-radius: 10%;
+}
+.temporada-5{
+    margin: 0.5em 1em 0.5em 3em;
+    border-radius: 10%;
+}
+.lista__item{
+    margin: 0em 1ewm 1em 2em;
+}
